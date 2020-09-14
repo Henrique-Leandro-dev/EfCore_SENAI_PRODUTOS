@@ -10,7 +10,6 @@ namespace EfCore_Produtos.Domains
     {
         public string Status { get; set; }
         public DateTime OrderDate { get; set; }
-
-
+        public object PedidosItens { get; internal set; }
     }
 }

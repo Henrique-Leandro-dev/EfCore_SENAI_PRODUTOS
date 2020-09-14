@@ -31,12 +31,22 @@ namespace EfCore_Produtos.Controllers
                 if (produtos.Count == 0)
                     return NoContent();
 
+                return Ok(new
+                {
+                    totalCount = produtos.Count,
+                    data = produtos
+
+                });
+
                 return Ok(produtos);
             }
             catch (Exception ex)
             {
 
-                return BadRequest(ex.Message);
+                return BadRequest(new {
+                 StatusCode = 400,  
+                 error = "Ocoorreu um erro no endpoint Get/produtos, envie um e-mail para miniqui10@gmail.com"
+                });
             }
         }
 
@@ -83,7 +93,6 @@ namespace EfCore_Produtos.Controllers
         {
             try
             {
-                produto.Id = id;
                 _produtoRepository.Editar(produto);
 
                 return Ok(produto);

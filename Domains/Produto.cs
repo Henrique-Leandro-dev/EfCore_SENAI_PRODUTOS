@@ -10,6 +10,7 @@ namespace EfCore_Produtos.Domains
     {
         public string Nome { get; set; }
         public float Preco { get; set; }
+        public List<PedidoItem> PedidosItens { get; set; }
 
 
     }
