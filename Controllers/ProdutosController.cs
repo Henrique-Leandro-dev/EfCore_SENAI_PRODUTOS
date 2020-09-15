@@ -50,7 +50,7 @@ namespace EfCore_Produtos.Controllers
             }
         }
 
-        // GET api/<RacaController>/5
+        // GET api/produtos/5
         [HttpGet("{id}")]
         public IActionResult Get(Guid id)
         {
@@ -68,7 +68,7 @@ namespace EfCore_Produtos.Controllers
             }
         }
 
-        // POST api/<RacaController>
+        // POST api/produtos
         [HttpPost]
         public IActionResult Post(Produto produto)
         {
@@ -87,7 +87,7 @@ namespace EfCore_Produtos.Controllers
 
         }
 
-        // PUT api/<RacaController>/5
+        // PUT api/produtos/5
         [HttpPut("{id}")]
         public IActionResult Put(Guid id, Produto produto)
         {
@@ -104,7 +104,7 @@ namespace EfCore_Produtos.Controllers
             }
         }
 
-        // DELETE api/<RacaController>/5
+        // DELETE api/produtos/5
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
         {

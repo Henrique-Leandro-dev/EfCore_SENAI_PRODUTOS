@@ -20,5 +20,6 @@ namespace EfCore_Produtos.Domains
         [Required]
         public int Quantidade { get; set; }
 
+
     }
 }
