@@ -42,6 +42,8 @@ namespace EfCore_Produtos
 
             app.UseAuthorization();
 
+            app.UseStaticFiles();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
