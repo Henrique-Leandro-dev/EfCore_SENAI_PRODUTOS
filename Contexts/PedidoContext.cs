@@ -12,6 +12,7 @@ namespace EfCore_Produtos.Contexts
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<Produto> Produtos { get; set; }
 
+            
         public DbSet<PedidoItem> PedidosItens { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

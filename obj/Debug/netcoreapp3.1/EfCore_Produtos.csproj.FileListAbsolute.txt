@@ -60,5 +60,12 @@ C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\obj\Debug\netcoreapp3.1\EfCo
 C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\obj\Debug\netcoreapp3.1\EfCore_Produtos.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\obj\Debug\netcoreapp3.1\EfCore_Produtos.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\obj\Debug\netcoreapp3.1\EfCore_Produtos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\bin\Debug\netcoreapp3.1\EfCore_Produtos.xml
+C:\Users\Pichau\Documents\SENAI\API\EfCore_Produtos\obj\Debug\netcoreapp3.1\EfCore_Produtos.xml
