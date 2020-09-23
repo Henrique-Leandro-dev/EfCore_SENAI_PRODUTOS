@@ -72,7 +72,12 @@ namespace EfCore_Produtos.Controllers
                 if (produto == null)
                     return NotFound();
 
-                return Ok(produto);
+
+                Moeda dolar = new Moeda();
+
+                return Ok(new { 
+                    produto, valorDolar = dolar.GetDolarValue() * produto.Preco 
+                });
             }
             catch (Exception ex)
             {
